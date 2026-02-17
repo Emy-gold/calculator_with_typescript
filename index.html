@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TS Calculator</title>
+</head>
+
+<body class="bg-pink-200 flex justify-center items-center h-screen">
+    <div class="bg-white w-80 p-6 rounded-xl shadow-lg">
+        <input id="display" class="bg-gray-100 w-full py-4 px-2 rounded-2xl shadow-md mb-2" placeholder="0">
+        <div class="grid grid-cols-4 gap-2">
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="clear">clr</button>
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="delete">DEL</button>
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="modulo">%</button>
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="devision">/</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number7">7</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number8">8</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number9">9</button>
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200"
+                id="multiplication">*</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number4">4</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number5">5</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number6">6</button>
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="subtraction">-</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number1">1</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number2">2</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number3">3</button>
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="addition">+</button>
+            <button class="rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="point">.</button>
+            <button class="btns rounded-full bg-gray-100 w-12 h-12 shadow-lg hover:bg-gray-200" id="number0">0</button>
+            <button class="col-span-2 rounded-full bg-pink-400 h-12 shadow-lg hover:bg-pink-300" id="equal">=</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
